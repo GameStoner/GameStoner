@@ -1,0 +1,98 @@
+.Header{
+    background-repeat: repeat;       
+}
+
+.FirstL{
+    position: sticky;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    color: rgb(0, 250, 54);
+    text-align: center;
+    border:groove;
+    background-color: #555 ;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+.button{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(241, 0, 0);
+    border:groove;
+    float: left;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: #ccc;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: 15px;
+    margin-bottom: 5px;
+
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 0px;
+    width: 75%;
+
+}
+image{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  input[type=text], select, textarea {
+    width: 25%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+
+  @viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+  @-ms-viewport {
+    width: device-width ;
+  }
+
+  @media screen and (min-width:320px) and (max-width:640px) {
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+  }
